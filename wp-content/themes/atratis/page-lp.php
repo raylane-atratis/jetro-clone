@@ -233,7 +233,7 @@ if (have_rows('blocos_home')):
 endif;
 ?>
 
-<img src="<?php echo bloginfo('template_url'); ?>/build/images/caixote.png" alt="caixa"
+<img src="<?php echo bloginfo('template_url'); ?>/build/images/caixote.png" alt="caixa flutuante"
     class="caixaFlutuante move-1">
 
 <?php
