@@ -1,0 +1,150 @@
+#August 27th 2025, 14:24 -03:00
+[ERROR] {
+"method": "POST",
+"endpoint": "https://api.rd.services/platform/events",
+"payload": {
+"event_type": "CONVERSION",
+"event_family": "CDP",
+"payload": {
+"client_tracking_id": null,
+"traffic_source": null,
+"conversion_identifier": "SITE-SOLICITACAO-PROPOSTA",
+"name": "Ana Paula Silva Azevedo",
+"job_title": "Gerente Administrativa e Financeira",
+"email": "rcacessoriosgeradm@gmail.com",
+"company_name": "RC Acessorios de Couro",
+"personal_phone": "(85) 99693-7015",
+"cf_segmento": "Acessórios",
+"legal_bases": [
+{
+"category": "communications",
+"type": "consent",
+"status": "granted"
+}
+]
+}
+},
+"error_type": "WP_Error",
+"error_message": "cURL error 7: Failed to connect to api.rd.services port 443 after 34 ms: Couldn't connect to server"
+}
+
+#August 27th 2025, 14:24 -03:00
+[ERROR] {
+"method": "POST",
+"endpoint": "https://api.rd.services/platform/events",
+"payload": {
+"event_type": "CONVERSION",
+"event_family": "CDP",
+"payload": {
+"client_tracking_id": null,
+"traffic_source": null,
+"conversion_identifier": "SITE-SOLICITACAO-PROPOSTA",
+"name": "Ana Paula Silva Azevedo",
+"job_title": "Gerente Administrativa e Financeira",
+"email": "rcacessoriosgeradm@gmail.com",
+"company_name": "RC Acessorios de Couro",
+"personal_phone": "(85) 99693-7015",
+"cf_segmento": "Acessórios",
+"legal_bases": [
+{
+"category": "communications",
+"type": "consent",
+"status": "granted"
+}
+]
+}
+},
+"error_type": "WP_Error",
+"error_message": "cURL error 7: Failed to connect to api.rd.services port 443 after 33 ms: Couldn't connect to server"
+}
+
+#August 27th 2025, 14:24 -03:00
+[ERROR] {
+"method": "POST",
+"endpoint": "https://api.rd.services/platform/events",
+"payload": {
+"event_type": "CONVERSION",
+"event_family": "CDP",
+"payload": {
+"client_tracking_id": null,
+"traffic_source": null,
+"conversion_identifier": "SITE-SOLICITACAO-PROPOSTA",
+"name": "Ana Paula Silva Azevedo",
+"job_title": "Gerente Administrativa e Financeira",
+"email": "rcacessoriosgeradm@gmail.com",
+"company_name": "RC Acessorios de Couro",
+"personal_phone": "(85) 99693-7015",
+"cf_segmento": "Acessórios",
+"legal_bases": [
+{
+"category": "communications",
+"type": "consent",
+"status": "granted"
+}
+]
+}
+},
+"error_type": "WP_Error",
+"error_message": "cURL error 7: Failed to connect to api.rd.services port 443 after 42 ms: Couldn't connect to server"
+}
+
+#August 27th 2025, 14:24 -03:00
+[ERROR] {
+"method": "POST",
+"endpoint": "https://api.rd.services/platform/events",
+"payload": {
+"event_type": "CONVERSION",
+"event_family": "CDP",
+"payload": {
+"client_tracking_id": null,
+"traffic_source": null,
+"conversion_identifier": "SITE-SOLICITACAO-PROPOSTA",
+"name": "Ana Paula Silva Azevedo",
+"job_title": "Gerente Administrativa e Financeira",
+"email": "rcacessoriosgeradm@gmail.com",
+"company_name": "RC Acessorios de Couro",
+"personal_phone": "(85) 99693-7015",
+"cf_segmento": "Acessórios",
+"legal_bases": [
+{
+"category": "communications",
+"type": "consent",
+"status": "granted"
+}
+]
+}
+},
+"error_type": "WP_Error",
+"error_message": "cURL error 7: Failed to connect to api.rd.services port 443 after 28 ms: Couldn't connect to server"
+}
+
+#August 28th 2025, 19:49 -03:00
+[ERROR] {
+"method": "POST",
+"endpoint": "https://api.rd.services/platform/events",
+"payload": {
+"event_type": "CONVERSION",
+"event_family": "CDP",
+"payload": {
+"client_tracking_id": null,
+"traffic_source": null,
+"conversion_identifier": "SITE-SOLICITACAO-PROPOSTA",
+"name": "juliana",
+"job_title": "gerente de supermercado",
+"email": "jumidinho@gmail.com",
+"company_name": "supermercado Frangol",
+"personal_phone": "(37) 99803-5842",
+"cf_segmento": "Outros",
+"legal_bases": [
+{
+"category": "communications",
+"type": "consent",
+"status": "granted"
+}
+]
+}
+},
+"error_type": "WP_Error",
+"error_message": "cURL error 7: Failed to connect to api.rd.services port 443 after 31 ms: Couldn't connect to server"
+}
+

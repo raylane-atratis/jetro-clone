@@ -1,0 +1,137 @@
+.dropdown-menu .show > .dropdown-toggle::after {
+    transform: rotate(-90deg);
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-xl .navbar-collapse {
+        display: flex !important;
+        flex-direction: row-reverse;
+    }
+}
+
+
+@media (min-width: 768px) {
+	.navbar-expand-xl .navbar-nav .nav-link {
+		padding: 4px 13px 4px;
+        margin: 5px;
+        font-weight: bold;
+	}
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: $cor02 !important;
+    text-decoration: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: $cor02 !important;
+}
+
+.dropdown-item {
+    padding: 10px 45px 10px 15px;
+    margin-left: 0;
+}
+
+.nav  a.active {
+    color: #fff !important;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.dropdown-menu {
+    background: #fff;
+    padding: 0;
+    width: 272px;
+}
+
+.desktop ul.dropdown-menu .dropdown-menu {
+    left: 270px;
+    top: 0;
+}
+
+.desktop nav li.dropdown:hover > ul.dropdown-menu {
+    // display: block;
+
+    a:hover {
+        color: $menu_hover !important;
+    }
+}
+
+@media (min-width: 979px) {
+    .desktop nav li.dropdown:hover > ul.dropdown-menu {
+        // display: block;
+    }
+}
+
+.show a {
+    left: 100%;
+    top: 0;
+}
+
+.show a:hover {
+    ul.dropdown-menu {
+        display: block;
+        position: absolute;
+    }
+}
+
+.mob_header {
+    display: none;
+
+    @media screen and (max-width: 1199px) {
+        display: block;
+    }
+
+    .dropdown-toggle {
+        font-size: 23px;
+        border: 1px solid;
+        width: 50px;
+        float: right;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+}
+
+.sidenav {
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: fixed;
+    z-index: 9999;
+    background-color: #eaeaea;
+    transition: .3s;
+
+    .navbar {
+        width: 100%;
+
+        ul {
+            width: 100%;
+            margin: 30px 0;
+
+            li {
+                a {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 12px 15px;
+
+                    &.active {
+                        background: #484848;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .links {
+        margin: 0;
+    }
+}

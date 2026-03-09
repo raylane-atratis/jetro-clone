@@ -1,0 +1,70 @@
+// |-------------
+// | Variables
+// |-------------
+
+// Cores
+
+$cor00 : #ffffff;
+$cor01 : #212121;
+$cor02 : #FF6E00;
+$cor03 : #FF6E00;
+$cor04 : #FF6E00;
+$cor05 : #ccc;
+$cor06 : #FF6E00;
+$cor07 : #515151;
+$cor08 : #2e2b3c;
+$cor09 : #a07f51;
+$cor10 : #eee;
+$cor11 : #f08b36;
+
+$menu : #000;
+
+$menu_hover : #FF6E00;
+
+$rodape : #353535;
+
+$bg_bread_titulo : #353535;
+
+$borda_rodape : #fff;
+
+$bt__padrao  : #FF6E00;
+
+$bg_bread: #f9f9f9;
+
+$cor_bt : #fff;
+
+$titulos : #FF6E00;
+
+$bg_videos : #d8deeb;
+
+// Fontes
+$ft : 'roboto', sans-serif;
+$fontawesome: normal normal normal 14px/1 FontAwesome;
+
+
+
+$ftRegular : 400;
+$ftBold : 700;
+
+// Grid
+$full : 100%;
+
+// Variaveis Conteudo
+$i : !important;
+
+img {
+  width: auto;
+}
+
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+@include placeholder {
+  color: $cor01;
+  font-weight:400;
+}

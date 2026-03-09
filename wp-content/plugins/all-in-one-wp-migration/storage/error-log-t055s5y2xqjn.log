@@ -1,0 +1,3 @@
+Mar 05 2026 16:22:54
+{"type":8192,"message":"Creation of dynamic property acf_field_Typography::$settings is deprecated","file":"C:\\wamp64\\www\\jetro-clone\\wp-content\\plugins\\acf-typography-field\\fields\\acf-Typography-v5.php","line":177}
+
