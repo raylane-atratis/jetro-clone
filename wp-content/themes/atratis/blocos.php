@@ -127,6 +127,9 @@
             elseif(get_row_layout() == 'sessao_texto_video_novo' && get_sub_field('exibir')):
                 get_template_part('template-parts-blocos/sessao_texto_video_novo');
 
+            elseif(get_row_layout() == 'secao_lp_cards' && get_sub_field('exibir')):
+                get_template_part('template-parts-blocos/secao_lp_cards');
+
             elseif(get_row_layout() == 'texto_imagem_maior'):
                 get_template_part('template-parts-blocos/texto_imagem_maior');
 

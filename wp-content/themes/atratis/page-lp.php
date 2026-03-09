@@ -29,6 +29,7 @@
 
         @media (max-width: 992px) {
             display: block;
+            padding: 40px 20px;
         }
     }
 
@@ -58,6 +59,30 @@
         justify-content: center;
         align-items: center;
         border-radius: 10px;
+
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 992px) {
+            padding: 30px 32px 25px;
+
+            .form-group {
+                margin-bottom: 0;
+
+                input {
+                    margin-bottom: 15px;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .wpcf7-form .col-lg-6,
+    .wpcf7-form .col-md-6 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
     .wpcf7-form-control-wrap {
@@ -65,7 +90,7 @@
         justify-content: center;
     }
 
-    .wpcf7-form .titulo {
+    .wpcf7-form h4 {
         max-width: 334px;
         color: #FF6E00;
         text-align: center;
@@ -90,7 +115,6 @@
     .wpcf7-form #checkbox {
         display: flex;
         flex-direction: row;
-        gap: 9px;
         margin-top: 5px;
     }
 
@@ -100,6 +124,16 @@
         border-radius: 3px;
         border: 1px solid #BABABA;
         background: #F3F3F3;
+    }
+
+    .wpcf7-list-item {
+        margin: 0 !important;
+    }
+
+    #checkbox label {
+        display: flex;
+        align-items: center;
+        gap: 9px;
     }
 
     .wpcf7-form .form-group {
@@ -157,7 +191,7 @@
 
     .caixaFlutuante {
         right: 5% !important;
-        bottom: -200px !important;
+        bottom: -130px !important;
     }
 </style>
 

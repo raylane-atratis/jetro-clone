@@ -22,6 +22,9 @@ $card_com_texto_a_esquerda_da_imagem = get_sub_field('card_com_texto_a_esquerda_
 $card_com_texto = get_sub_field('card_com_texto');
 $logo_depois_do_texto = get_sub_field("logo_depois_do_texto");
 $lista_redes_sociais = get_sub_field("lista_redes_sociais");
+$link_botao_centralizado = get_sub_field("link_botao_centralizado");
+$texto_botao_centralizado = get_sub_field("texto_botao_centralizado");
+$texto_centralizado = get_sub_field("texto_centralizado");
 
 
 // $classe = $classe . $imagem_pessoa ? " imagem-pessoa" : "";
@@ -72,40 +75,115 @@ endif;
 <style>
     .lp-homem {
 
+        @media (max-width: 992px) {
+            padding: 50px 20px 0;
+        }
+
         .imagem::after {
             right: 168px !important;
         }
 
         .circulo-girando {
             top: 80px !important;
-            left: 30px !important;
+            /* left: 30px !important; */
+            left: 168px !important;
         }
     }
 
     .lp-mulher {
 
+        @media (max-width: 992px) {
+            padding: 50px 20px 0;
+
+            .imagem {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
         .imagem::after {
             right: 163px !important;
+
+            @media (max-width: 992px) and (min-width: 768px) {
+                right: 244px !important;
+
+            }
         }
 
         .circulo-girando {
             top: 50px !important;
-            left: 350px !important;
+            left: 430px !important;
+
+            @media (max-width: 992px) {
+                top: 62px !important;
+                left: 290px !important;
+            }
+
+            @media (max-width: 468px) {
+                top: 74px !important;
+                left: 226px !important;
+            }
+        }
+
+        .header-secao {
+            margin-bottom: 6px !important;
+        }
+
+        ul {
+            margin-left: 18px !important;
+
+            li {
+                list-style: disc !important;
+            }
+
+            li::marker {
+                color: #FF6E00 !important;
+                font-size: 18px;
+            }
+        }
+
+        h3 {
+            font-size: 26px !important;
+            color: #484D51 !important;
+            text-transform: none !important;
+            font-weight: 700 !important;
         }
     }
 
 
     .lp-texto-2 {
+        @media (max-width: 992px) {
+            padding: 50px 20px 0;
+
+            .col-lg-6:first-child {
+                padding-top: 0 !important;
+            }
+        }
+
         .texto {
             p {
                 margin-bottom: 10px !important;
                 color: #23292E !important;
             }
 
+            ul {
+                margin-left: 18px !important;
+            }
+
             ul li {
                 margin-bottom: 5px !important;
                 list-style: disc !important;
             }
+        }
+    }
+
+    .texto-centralizado {
+        margin-top: 40px;
+    }
+
+    .centralizado-btn {
+        .bt__padrao {
+            padding: 6px 27px;
         }
     }
 </style>
@@ -161,7 +239,7 @@ endif;
                             </div>
                         <?php endif; ?>
                         <img src="<?php echo get_sub_field('imagem'); ?>"
-                            alt="Imagem sobre <?php echo get_sub_field('titulo', "option"); ?>">
+                            alt="Imagem sobre <?php echo esc_attr(get_sub_field('titulo', "option")); ?>">
                     </div>
                 </div>
             </div>
@@ -232,6 +310,24 @@ endif;
 
                 </div>
             </div>
+        </div>
+        <div class="final-centralizado align-items-center">
+            <?php if ($texto_centralizado): ?>
+                <div class="col-12 text-center">
+                    <p class="texto-centralizado" <?php echo $animacaoConteudo; ?>>
+                        <?php echo $texto_centralizado; ?>
+                    </p>
+                </div>
+            <?php endif; ?>
+            <?php if ($link_botao_centralizado): ?>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="centralizado-btn">
+                        <a class="bt__padrao" href="<?php echo $link_botao_centralizado; ?>">
+                            <?php echo $texto_botao_centralizado; ?>
+                        </a>
+                    </div>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </section>

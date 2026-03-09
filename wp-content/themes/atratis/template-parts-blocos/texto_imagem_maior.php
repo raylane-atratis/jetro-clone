@@ -238,7 +238,7 @@ $has_blocos  = have_rows('lista_de_blocos');
         .sbf-botao-wrap {
             display: flex;
             justify-content: center;
-            margin-top: 72px;
+            margin-top: 25px;
         }
 
         .sbf-botao {
@@ -280,11 +280,11 @@ $has_blocos  = have_rows('lista_de_blocos');
         /* ── Responsivo ≤ 992px ──────────────────── */
         @media (max-width: 992px) {
             .secao-blocos-flexivel {
-                padding: 64px 0 56px;
+                padding: 64px 20px 56px;
             }
 
             .sbf-lista {
-                gap: 56px;
+                gap: 30px;
             }
 
             .sbf-bloco .col-lg-7 {
@@ -300,17 +300,17 @@ $has_blocos  = have_rows('lista_de_blocos');
             }
 
             .sbf-botao-wrap {
-                margin-top: 48px;
+                margin-top: 20px;
             }
         }
 
         @media (max-width: 576px) {
             .secao-blocos-flexivel {
-                padding: 48px 0 40px;
+                padding: 48px 20px 40px;
             }
 
             .sbf-lista {
-                gap: 40px;
+                gap: 20px;
             }
 
             .sbf-conteudo-inner {

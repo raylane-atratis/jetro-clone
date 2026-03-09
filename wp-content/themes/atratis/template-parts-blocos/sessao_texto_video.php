@@ -61,7 +61,7 @@ endif;
       padding-bottom: 70px;
 
       @media (max-width: 991px) {
-        padding-bottom: 20px;
+            padding: 40px 20px 20px;
       }
 
     .sub-titulo {
